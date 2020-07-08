@@ -16,3 +16,5 @@ raw_input("> ")
 
 print "It seems my program was a success, congratulations! This file will now close."
 target.close()
+
+# FUCK YEAH IT WORKED ON THE FIRST TRY
