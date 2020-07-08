@@ -13,8 +13,12 @@ lives = raw_input(prompt)
 print "What kind of computer do you have?"
 computer = raw_input(prompt)
 
+print "Why do you do what you do?"
+answer = raw_input(prompt)
+
 print """
 Alright, so you said %s about liking me.
 You live in %s. Not sure where that is.
 And you have a %s computer. Nice.
-""" % (likes, lives, computer)
+%s, I see.
+""" % (likes, lives, computer, answer)
