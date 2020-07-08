@@ -4,6 +4,9 @@ from sys import argv
 # applies filename to argv
 script, filename = argv # pylint: disable=unbalanced-tuple-unpacking 
 
+# filename = raw_input('What is the name of the file you are trying to open? ')
+# ^used this for testing purposes^
+
 # assigns the variable 'txt' to open the argv
 txt = open(filename)
 
