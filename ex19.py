@@ -25,3 +25,4 @@ cheese_and_crackers(10 + 20, 5 + 6)
 print "And we can combine the two, variables and math:"
 # does addition with the variables and assigns them to cheese_and_crackers, (on top of what it's already defined as) then prints it 
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+ 
