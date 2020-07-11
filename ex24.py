@@ -29,7 +29,8 @@ start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 # ^ These can be anything I guess, changing jars to tacos made no difference but I have no idea why ^
 # Maybe as long as they're in the correct order? 
-# Yep, thats the case, switched around beans and jars, switched the output around too (think of the return as a numbered list I guess, 1,2,3)
+# Yep, thats the case, switched around beans and jars, switched the output around too 
+# (think of the return as a numbered list I guess, (1,2,3)
 
 print "With a starting point of: %d" % start_point
 print "We'd have %d beans, %d jars, and %d crates." % (beans, jars, crates)
